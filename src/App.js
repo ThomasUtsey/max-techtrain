@@ -1,6 +1,6 @@
 import { Route, Switch } from 'react-router';
-import { BreakTime, LabTime, QuizTime, Questions } from './components';
-import Navigation from './components/Navigation';
+import { BreakTime, LabTime, QuizTime, Questions } from './Components';
+import Navigation from './Components/Navigation';
 import {
 	Footer,
 	FooterLink,
@@ -8,7 +8,7 @@ import {
 	Main,
 	Title,
 	TitleBar,
-} from './components/shared';
+} from './Components/shared';
 import logo from './logo.png';
 
 function App() {
